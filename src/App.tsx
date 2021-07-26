@@ -2,7 +2,7 @@ import './App.css';
 import WhatsAppBar from './components/WhatsAppBar';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import Section1 from './components/Section1';
+import SectionMain from './components/SectionMain';
 import SectionImgText from './components/SectionImgText';
 import SectionBlue from './components/SectionBlue';
 import Footer from './components/Footer';
@@ -20,7 +20,7 @@ function App() {
       <WhatsAppBar />
       <Header />
       <Banner />
-      <Section1 />
+      <SectionMain />
       <SectionImgText direction="right" video="https://www.youtube.com/embed/_-bdo17MZlg" title="Conheça a Teleconsulta iClinic" text="Veja como a Teleconsulta do iClinic pode te auxiliar nos seus atendimentos, para que você mantenha a experiência do seu paciente com a clínica mesmo que à distância." />
       <SectionImgText direction="left" img={imgTeleconsulta} title="Atenda sem sair de casa" text="Realize seus atendimentos de forma digital e remota, orientando seus pacientes com a qualidade e experiência das consultas. Converse ao vivo por ligações de áudio e vídeo e ainda tenha o apoio dos recursos de Chat e Anotações, podendo marcar informações úteis sobre a consulta." />
       <SectionImgText direction="right" img={imgIntegracao} title="Teleconsulta integrada ao prontuário eletrônico" text="A solução de Telemedicina da iClinic é completamente integrada ao prontuário eletrônico do sistema. Você pode ver o vídeo do seu paciente ao mesmo tempo que consulta e preenche o prontuário. Muito mais praticidade e segurança para os seus atendimentos." />

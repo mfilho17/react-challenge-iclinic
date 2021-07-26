@@ -5,7 +5,7 @@ import imgNotebook from '../../assets/images/cards/notebook.png';
 import imgSeguro from '../../assets/images/cards/seguro.png';
 import Article from '../Article';
 
-class Section1 extends Component {
+class SectionMain extends Component {
 
     render() {
         return (
@@ -40,4 +40,4 @@ class Section1 extends Component {
 
 }
 
-export default Section1;
+export default SectionMain;
