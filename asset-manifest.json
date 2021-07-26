@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-challenge-iclinic/static/css/main.f80fb221.chunk.css",
+    "main.js": "/react-challenge-iclinic/static/js/main.0aad7228.chunk.js",
+    "main.js.map": "/react-challenge-iclinic/static/js/main.0aad7228.chunk.js.map",
+    "runtime-main.js": "/react-challenge-iclinic/static/js/runtime-main.4d5e7352.js",
+    "runtime-main.js.map": "/react-challenge-iclinic/static/js/runtime-main.4d5e7352.js.map",
+    "static/js/2.53596d80.chunk.js": "/react-challenge-iclinic/static/js/2.53596d80.chunk.js",
+    "static/js/2.53596d80.chunk.js.map": "/react-challenge-iclinic/static/js/2.53596d80.chunk.js.map",
+    "static/js/3.c1edb820.chunk.js": "/react-challenge-iclinic/static/js/3.c1edb820.chunk.js",
+    "static/js/3.c1edb820.chunk.js.map": "/react-challenge-iclinic/static/js/3.c1edb820.chunk.js.map",
+    "index.html": "/react-challenge-iclinic/index.html",
+    "static/css/main.f80fb221.chunk.css.map": "/react-challenge-iclinic/static/css/main.f80fb221.chunk.css.map",
+    "static/js/2.53596d80.chunk.js.LICENSE.txt": "/react-challenge-iclinic/static/js/2.53596d80.chunk.js.LICENSE.txt",
+    "static/media/desktop.7c9c8a80.png": "/react-challenge-iclinic/static/media/desktop.7c9c8a80.png",
+    "static/media/devices.047e79f7.png": "/react-challenge-iclinic/static/media/devices.047e79f7.png",
+    "static/media/mobile.62d6a046.png": "/react-challenge-iclinic/static/media/mobile.62d6a046.png",
+    "static/media/teleconsulta-gravar.5ad9d6e9.png": "/react-challenge-iclinic/static/media/teleconsulta-gravar.5ad9d6e9.png",
+    "static/media/teleconsulta-whatsapp.681ac377.png": "/react-challenge-iclinic/static/media/teleconsulta-whatsapp.681ac377.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d5e7352.js",
+    "static/js/2.53596d80.chunk.js",
+    "static/css/main.f80fb221.chunk.css",
+    "static/js/main.0aad7228.chunk.js"
+  ]
+}
