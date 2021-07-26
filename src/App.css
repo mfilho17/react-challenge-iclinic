@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #888;
+  font-family: Open Sans;
+  -webkit-font-smoothing: antialiased;
+}
+a{
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-size: 21px;
+  font-weight: 500;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media screen and (min-width: 1061px){
+  .container {
+    width: 1061px;
+    padding: 0;
+  }
+}
+.hidden {
+  display: none;
+}
+.section-title.padding {
+  padding: 70px 20px 0;
+}
+.section-title>h2, .section-title>h4 {
+  font-size: 28px;
+  color: #4c4c4c;
+  font-weight: 700;
+}
+.section-title>h2, .section-title>h4, .section-title>p {
+  text-align: center;
+}
+@media screen and (min-width: 768px){
+  .section-title>h2, .section-title>h4 {
+    font-size: 48px;
+  }
+}
+.specify .group {
+  padding: 35px 0;
+}
+.specify .group .specify-item {
+  box-sizing: border-box;
+  padding: 25px;
+  max-width: 370px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.specify .group .specify-item h2 {
+  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 21px;
+}
+@media screen and (min-width: 768px){
+  .specify .group .specify-item {
+    text-align: center;
+    width: 33.3334%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .specify .group .specify-item h2 {
+    font-size: 24px;
+  }
+}

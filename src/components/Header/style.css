@@ -1,0 +1,42 @@
+#main-header.whatsapp {
+    margin-top: 60px;
+    box-sizing: border-box;
+    height: 70px;
+    transition: top .3s;
+    top: 0;
+}
+@media screen and (min-width: 768px){
+    #main-header.rescue {
+        top: -70px;
+    }
+}
+@media screen and (min-width: 990px){
+    #main-header.whatsapp {
+        margin-top: 40px;
+    }
+}
+
+#main-header .container .header-img{
+    float: left;
+    height: 38px;
+    margin-top: 14px;
+}
+
+#main-header .container .button-group .btn-landing-page, #main-header .container .button-group .btn-register {
+    display: none;
+}
+#main-header .container .button-group a, #main-header .container .button-group button {
+    margin: 16px 0 0 10px;
+    float: right;
+}
+@media screen and (min-width: 768px){
+    #main-header .container .button-group .btn-landing-page {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #main-header.whatsapp {
+        margin-top: 100px;
+    }
+}

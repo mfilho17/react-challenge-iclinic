@@ -1,0 +1,38 @@
+.blue-cta {
+    background: #2c97d1;
+    padding: 60px 0;
+}
+.blue-cta .section-title h4 {
+    font-size: 28px;
+}
+.blue-cta .section-title p {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+.blue-cta .section-title h4, .blue-cta .section-title p {
+    color: #fff;
+}
+.blue-cta .short-register-form {
+    margin-top: 50px;
+    text-align: center;
+}
+.blue-cta .short-register-form a, .blue-cta .short-register-form .btn {
+    display: inline-block;
+    /*height: 50px;*/
+    width: 100%;
+}
+@media screen and (min-width: 850px){
+    .blue-cta .short-register-form {
+        height: 50px;
+    }
+    .blue-cta .short-register-form .btn {
+        width: 30%;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 768px){
+    .section-title>h2, .section-title>h4 {
+        font-size: 48px;
+    }
+}

@@ -1,0 +1,99 @@
+.site-footer {
+    margin-bottom: 100px;
+}
+.site-footer .container {
+    display: block;
+    text-align: center;
+}
+.site-footer .container .footer-col {
+    margin-top: 50px;
+}
+.site-footer .container .footer-col .logo {
+    height: auto;
+}
+.site-footer .container .footer-col .footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-footer .container .footer-col .footer-menu .footer-menu-item {
+    margin-bottom: 10px;
+}
+.site-footer .container .footer-col .footer-item-name--dst {
+    margin: 0;
+    color: #212b36;
+    font-weight: 700;
+    font-size: 14px;
+}
+.site-footer .container .footer-col .footer-menu .footer-menu-item p {
+    margin: 0;
+}
+.site-footer .container .footer-col .footer-menu .footer-menu-item a {
+    color: #637381;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.site-footer .container .footer-col .tel {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.site-footer .container .footer-col .tel img {
+    padding-top: 3px;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.site-footer .container .footer-col .footer-item-text--dst {
+    color: #637381;
+    font-size: 14px;
+}
+.site-footer .container .footer-col .tel .footer-text--phone {
+    margin: 0;
+    padding-top: 3px;
+}
+.site-footer .container .footer-col .tel .footer-text--phone a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:400;
+    color: #008ccf;
+}
+.site-footer .container .footer-col .footer-links a {
+    color: transparent;
+}
+.site-footer .container .footer-col .footer-links a .icon {
+    height: auto;
+    width: auto;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.site-footer .container .footer-col .footer-links a img {
+    height: auto;
+    width: 152px;
+}
+@media screen and (min-width: 915px){
+    .site-footer .container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .site-footer .container .footer-col {
+        width: 18%;
+    }
+    .site-footer .container .footer-col .footer-links a img, .site-footer .container .footer-col .logo {
+        width: 80%;
+    }
+    .site-footer .container .footer-col .tel {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}

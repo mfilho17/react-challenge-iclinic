@@ -1,0 +1,104 @@
+.section.borderless {
+    border: 0;
+}
+.section {
+    border-top: 1px solid #ddd;
+    padding: 60px 0;
+}
+.section {
+    border-top: 1px solid #ddd;
+    padding: 60px 0;
+}
+.section .text {
+    padding-top: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.section .text h2 {
+    font-size: 24px;
+    color: #4c4c4c;
+    font-weight: 700;
+}
+.section .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.section .video-container embed, .section .video-container iframe, .section .video-container object {
+    position: absolute;
+    border-radius: 7px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.section .image, .section .text {
+    box-sizing: border-box;
+}
+.section .image img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    max-width: 530px;
+}
+.section .image .big-image {
+    width: 100%;
+}
+@media screen and (min-width: 960px){
+    .section.section-left .image, .section.section-left .text {
+        float: left;
+    }
+    .section .image, .section .text {
+        width: 50%;
+    }
+    .section.section-left .image img {
+        margin-left: -30px;
+    }
+    .section .video-container embed, .section .video-container iframe, .section .video-container object {
+        width: 90%;
+        height: 90%;
+    }
+    .section .image img {
+        width: 100%;
+    }
+    .section .text {
+        text-align: left;
+        padding: 30px;
+    }
+    .section .text h2 {
+        font-size: 34px;
+    }
+    .section.vertical-center .image .big-image {
+        max-width: 500px;
+    }
+}
+@media screen and (min-width: 768px){
+    .section.vertical-center .container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .section.vertical-center.section-left .image {
+        -ms-flex-order: -1;
+        order: -1;
+    }
+    .section.vertical-center .image {
+        text-align: center;
+    }
+    .section.vertical-center .image img {
+        max-width: 400px;
+        margin: 0!important;
+        display: inline-block;
+    }
+    .section.vertical-center.section-right .image {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}

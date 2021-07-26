@@ -1,0 +1,90 @@
+#banner {
+    background: linear-gradient(135deg,#39beec,#074080);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding-top: 65px;
+}
+#banner:after {
+    content: " ";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 0 -10px 22px -10px hsl(0deg 0% 8% / 60%);
+    height: 65px;
+    z-index: 5;
+}
+/* Titles */
+#banner h1,#banner h2,#banner h3,#banner h4,#banner h5,#banner h6 {
+    text-align: center;
+}
+#banner h1 {
+    font-size: 34px;
+    line-height: 1.2em;
+}
+#banner h2 {
+    margin: 15px 0 20px;
+    font-weight: 400;
+}
+#banner h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Form */
+.banner-form{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+#banner .banner-form a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.banner-image .preview-image {
+    margin: 60px auto -15px;
+}
+.banner-image .preview-image img {
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    #banner {
+        padding: 70px 20px;
+    }
+    .banner-form{
+        width: 380px;
+    }
+    .banner-form, .banner-image {
+        float: left;
+    }
+    #banner h1 {
+        font-size: 38px;
+    }
+    #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+        text-align: left;
+    }
+    .banner-form a, .banner-form button {
+        margin-bottom: 20px;
+    }
+    #banner .banner-image {
+        width: calc(100% - 380px);
+        position: relative;
+    }
+    .banner-image .preview-image {
+        position: absolute;
+        left: 20px;
+        min-width: 1090px;
+        margin: 0;
+    }
+    .banner-image .preview-image img {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .banner-image .preview-image img,
+    .banner-image .preview-image img {
+        width: 60%;
+    }
+}
